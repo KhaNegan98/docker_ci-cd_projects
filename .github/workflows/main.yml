@@ -27,5 +27,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: KhaNegan98/docker_ci-cd_projects:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/docker_ci-cd_projects:latest
 
